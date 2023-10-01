@@ -15,7 +15,7 @@ window.onkeydown = (e) => {
 const loop = setInterval(() => {
     action();
     clock();
-}, 1000);
+}, 500);
 function check() {
     if (enter.value.length <= 1) {
         return true;
