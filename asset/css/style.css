@@ -191,7 +191,8 @@ input::placeholder {
         padding: 6.8px;
     }
     #clock{
-        font-size: 3.8vw;
+        font-size: 3.7vw;
+        top:6px;
         left: 45%;
         color:rgb(66, 198, 5);
     }
