@@ -67,7 +67,7 @@ section {
     height: 3vw;
     font-size: 2.5vw;
     display: flex;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     justify-content: flex-start;
 }
 
