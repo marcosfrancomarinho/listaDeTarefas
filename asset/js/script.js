@@ -8,7 +8,7 @@ let value;
 
 button.addEventListener("click", add);
 window.onkeydown = (e) => {
-    if (e.code == "Enter") {
+    if (e.KeyCode == "13") {
         add()
     };
 };
