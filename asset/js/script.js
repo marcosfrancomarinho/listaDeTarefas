@@ -7,11 +7,6 @@ const enter = document.querySelector("#enter");
 let value;
 
 button.addEventListener("click", add);
-window.onkeydown = (e) => {
-    if (e.keyCode == 13) {
-        add()
-    };
-};
 const loop = setInterval(() => {
     action();
     clock();
